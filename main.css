@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    /* border: 1px solid rebeccapurple; */
+}
+
+header {
+    background: url('https://images.unsplash.com/photo-1530053969600-caed2596d242?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Ymx1ZSUyMHNlYXxlbnwwfHwwfHx8MA%3D%3D');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    /* border: 1px solid rebeccapurple; */
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo a{
+    font-size: 20px;
+}
+
+.header-info{
+    /* border: 1px solid rebeccapurple; */
+    margin: 15px;
+    width: 1000px;
+}
+
+.header-info h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.header-btn input{
+    padding: 3px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.header-btn {
+    margin-top: 1rem;
+}
+.header-btn button{
+    padding: 3px;
+    width: 100px;
+    background-color: rgb(0, 0, 231);
+    color: white;
+    border: none;
+    border-radius: 5px  ;
+}
+
+.product{
+    background-color:white;
+}
+
+.product .container{
+    text-align: center;
+}
+
+.pro-title h3{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.pro-desc h4{
+    font-weight: lighter;
+}
+
+.grid-container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column{
+    -ms-flex: 50%;
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img{
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
